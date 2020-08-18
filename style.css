@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.note{
+    background: rgb(211, 146, 146);
+    padding: 5px;
+}
+
+.header{
+    background: rgba(104, 95, 95, 0.067);
+    text-align: center;
+    padding: 60px;
+}
+.nav{
+    background: rgba(17, 17, 17, 0.534);
+    padding:20px;
+    display: flex;
+}
+
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 50px;
+    text-align: center;
+}
+
+.nav a:hover{
+    background-color: rgb(119, 119, 119);
+    color: black;
+
+}
